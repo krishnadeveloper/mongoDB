@@ -5,3 +5,6 @@ mongoDB Installation - Process (MacOS)
 > https://www.mongodb.com/download-center/community (Click on download button by selecting OS from list)
 
 ### Installtion Process
+ 1. Open Terminal
+ 2. Check mongodb file name like mongodb-osx-ssl-x86_64-4.0.9.tgz
+ 3. Unzip the file like mongodb-osx-ssl-x86_64-4.0.9.tgz
