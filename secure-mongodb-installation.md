@@ -12,6 +12,17 @@
 5. `sudo systemctl start mongod`
 6. `sudo systemctl status mongod`
 7. `sudo systemctl enable mongod`
-8. ``
+
+## Securing MongoDB
+
+1. `mongo`
+2. `use admin
+db.createUser(
+  {
+    user: "AdminSammy",
+    pwd: "AdminSammy'sSecurePassword",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+  }
+)`
 
 
